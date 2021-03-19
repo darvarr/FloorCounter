@@ -1,5 +1,4 @@
 # FloorCounter
-Floor counter app which uses accelerometer and pressure sensors.
 
 This is an old Android project, made for fun to learn Android basis.
 It targets Android 4.4 (Android SDK 19)
