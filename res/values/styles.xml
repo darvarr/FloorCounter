@@ -1,0 +1,94 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="fill_title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="stats_values">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="stats_title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="grid_element">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <!-- Styles for 720dp screens -->
+    
+    <style name="stats_values720dp">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="stats_title720dp">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="grid_element720dp">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <!-- Styles for 600dp screens -->
+    
+    <style name="stats_values600dp">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="stats_title600dp">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="grid_element600dp">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#242424"
+    tools:context="com.example.floorcounter.FloorCounterActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutGreen"
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textFloor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="@string/Floor"
+            android:textColor="#ff66CC00"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSphereG"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" >
+
+            <TextView
+                android:id="@+id/green_sphere"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sphere_g"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/start"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPink"
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="180dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textDirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/Direction"
+            android:textColor="#ffcc33cc"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSphereP"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" >
+
+            <TextView
+                android:id="@+id/pink_sphere"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sphere_p"
+                android:gravity="center"
+                android:padding="30dp"
+                android:text="@string/start_dir"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBlue"
+        android:layout_width="110dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textChrono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/Chrono"
+            android:textColor="#ff3399ff"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSphereB"
+            android:layout_width="match_parent"
+            android:layout_height="110dp" >
+
+            <Chronometer
+                android:id="@+id/blue_sphere"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sphere_b"
+                android:gravity="center"
+                android:padding="20dp"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        style ="?android:attr/buttonBarStyle"
+        android:id="@+id/console"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:orientation="horizontal" >
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/pause_play"
+            android:background="@drawable/button_background"
+            android:layout_width="110dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="@string/pause" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/lock"
+            android:background="@drawable/button_lock_background"
+            android:layout_width="70dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="@string/lock" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/stop"
+            android:background="@drawable/button_stop_background"
+            android:layout_width="110dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

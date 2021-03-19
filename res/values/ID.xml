@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<item type="id" name="cal_title" />
+        <item type="id" name="calories" />
+        <item type="id" name="met_title" />
+        <item type="id" name="meters" />
+</resources>
